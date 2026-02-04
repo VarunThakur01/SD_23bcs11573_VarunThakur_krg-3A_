@@ -1,0 +1,249 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.7">
+  <diagram name="Page-1" id="mpoMFjw04k230yL-Bh3S">
+    <mxGraphModel dx="1603" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;HLD for a payment processing system&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="350" x="270" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-2" parent="1" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user2;fillColor=#fafafa;strokeColor=#005073;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="404" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-3" parent="1" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user2;fillColor=#fafafa;strokeColor=#005073;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="399" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Clients" vertex="1">
+          <mxGeometry height="30" width="60" x="399" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-5" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" value="" vertex="1">
+          <mxGeometry height="78" width="78" x="524" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-6" edge="1" parent="1" source="HkGRfGMKcpuBIIGirGmX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="HkGRfGMKcpuBIIGirGmX-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="489" y="440" />
+              <mxPoint x="489" y="459" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-7" edge="1" parent="1" source="HkGRfGMKcpuBIIGirGmX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HkGRfGMKcpuBIIGirGmX-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;API Gateway and load balancers&lt;div&gt;&lt;br&gt;&lt;div&gt;- Authentication&lt;/div&gt;&lt;div&gt;- Authorization&lt;/div&gt;&lt;div&gt;- Routing&lt;/div&gt;&lt;div&gt;- Rate limiting&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="270" width="120" x="503" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-9" edge="1" parent="1" source="HkGRfGMKcpuBIIGirGmX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="HkGRfGMKcpuBIIGirGmX-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="758" y="270" />
+              <mxPoint x="838" y="270" />
+              <mxPoint x="838" y="233" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-10" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/User_Resource.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="48" x="734" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="user service" vertex="1">
+          <mxGeometry height="30" width="70" x="723" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-12" edge="1" parent="1" source="HkGRfGMKcpuBIIGirGmX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.784;entryDx=0;entryDy=0;entryPerimeter=0;" target="HkGRfGMKcpuBIIGirGmX-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="679" y="570" />
+              <mxPoint x="679" y="349" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="logging" vertex="1">
+          <mxGeometry height="30" width="60" x="674" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JWT for session management&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="663" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-15" edge="1" parent="1" source="HkGRfGMKcpuBIIGirGmX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HkGRfGMKcpuBIIGirGmX-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="864" y="265" />
+              <mxPoint x="864" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-16" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" value="" vertex="1">
+          <mxGeometry height="90" width="73.8" x="902.1" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="user DB" vertex="1">
+          <mxGeometry height="30" width="60" x="954" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="check user credentials" vertex="1">
+          <mxGeometry height="30" width="60" x="764" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HTTP Response: user verified&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="814" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-20" edge="1" parent="1" source="HkGRfGMKcpuBIIGirGmX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="HkGRfGMKcpuBIIGirGmX-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="934" y="481" />
+              <mxPoint x="934" y="500" />
+              <mxPoint x="1094" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-21" edge="1" parent="1" source="HkGRfGMKcpuBIIGirGmX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HkGRfGMKcpuBIIGirGmX-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="988" y="450" />
+              <mxPoint x="988" y="324" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-22" edge="1" parent="1" source="HkGRfGMKcpuBIIGirGmX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HkGRfGMKcpuBIIGirGmX-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="954" y="470" />
+              <mxPoint x="954" y="640" />
+              <mxPoint x="854" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-23" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.payment_cryptography;" value="" vertex="1">
+          <mxGeometry height="78" width="78" x="814" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-24" edge="1" parent="1" source="HkGRfGMKcpuBIIGirGmX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HkGRfGMKcpuBIIGirGmX-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-25" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Business_Success-2515/wallet-money-credit_card-payment_method-1070.svg" value="" vertex="1">
+          <mxGeometry height="64" width="64" x="1084" y="292" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-26" edge="1" parent="1" source="HkGRfGMKcpuBIIGirGmX-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1074" y="560" />
+              <mxPoint x="944" y="560" />
+              <mxPoint x="944" y="520" />
+            </Array>
+            <mxPoint x="1103" y="579.4676505901275" as="sourcePoint" />
+            <mxPoint x="892" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-27" edge="1" parent="1" source="HkGRfGMKcpuBIIGirGmX-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HkGRfGMKcpuBIIGirGmX-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1174" y="606" />
+              <mxPoint x="1174" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-28" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_device_gateway;" value="" vertex="1">
+          <mxGeometry height="73" width="78" x="1044" y="569" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-29" edge="1" parent="1" source="HkGRfGMKcpuBIIGirGmX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" target="HkGRfGMKcpuBIIGirGmX-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1044" y="340" />
+              <mxPoint x="1044" y="460" />
+              <mxPoint x="892" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-30" edge="1" parent="1" source="HkGRfGMKcpuBIIGirGmX-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="HkGRfGMKcpuBIIGirGmX-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1224" y="340" />
+              <mxPoint x="1224" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-31" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" value="" vertex="1">
+          <mxGeometry height="72" width="59.04" x="1274" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-32" edge="1" parent="1" source="HkGRfGMKcpuBIIGirGmX-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HkGRfGMKcpuBIIGirGmX-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1154" y="670" />
+              <mxPoint x="1154" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-33" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" value="" vertex="1">
+          <mxGeometry height="72" width="59.04" x="1264" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-34" edge="1" parent="1" source="HkGRfGMKcpuBIIGirGmX-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HkGRfGMKcpuBIIGirGmX-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="962" y="810" />
+              <mxPoint x="962" y="846" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-35" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.services.push_notification_service;" value="" vertex="1">
+          <mxGeometry height="58" width="50" x="829" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Payment Service" vertex="1">
+          <mxGeometry height="30" width="60" x="824" y="532" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-37" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" value="" vertex="1">
+          <mxGeometry height="72" width="59.04" x="1044" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="pay method DB" vertex="1">
+          <mxGeometry height="30" width="60" x="1244" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="pay gateway DB" vertex="1">
+          <mxGeometry height="30" width="60" x="1243.04" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="notification DB&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1044" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="notification service&lt;div&gt;&lt;br&gt;&lt;div&gt;- SMS&lt;/div&gt;&lt;div&gt;- Email&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="823" y="852" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;payment method&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;- credit card&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;-UPI&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;- net banking&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="113" x="1071" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="payment gateway&lt;div&gt;- razorpay gateway&lt;/div&gt;&lt;div&gt;- stripe gateway&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="1033" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;div&gt;&lt;p dir=&quot;auto&quot; style=&quot;white-space-collapse: preserve;&quot;&gt;Payment Service calls Payment Gateway API.&lt;/p&gt;&lt;/div&gt;&lt;section&gt;&lt;/section&gt;&lt;section&gt;&lt;/section&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="1084" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p dir=&quot;auto&quot; style=&quot;white-space-collapse: preserve;&quot;&gt;Payment Gateway responds via API callback&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="967.8" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p dir=&quot;auto&quot; style=&quot;white-space-collapse: preserve;&quot;&gt;stores transaction metadata and logs&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="80" x="1184" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p dir=&quot;auto&quot; style=&quot;white-space-collapse: preserve;&quot;&gt;Payment success/fail&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="784" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p dir=&quot;auto&quot; style=&quot;white-space-collapse: preserve;&quot;&gt;saves and reads notification details&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="934" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p dir=&quot;auto&quot; style=&quot;white-space-collapse: preserve;&quot;&gt;reads/writes Payment Methods table&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="894" y="412" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="respond with details&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="984" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="lookup for saved payment methods" vertex="1">
+          <mxGeometry height="30" width="90" x="1163" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="gives back details&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1178" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="gives back details&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1174" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="HkGRfGMKcpuBIIGirGmX-54" edge="1" parent="1" source="HkGRfGMKcpuBIIGirGmX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.008;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;" target="HkGRfGMKcpuBIIGirGmX-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="644" y="335" />
+              <mxPoint x="644" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
